@@ -4,6 +4,7 @@ magic_number = random.randrange(11)
 count = 0
 guess = -1
 
+#loops until the guess matches the magic number
 while True:
     count += 1
     guess = int(input("Guess the magic number: "))
