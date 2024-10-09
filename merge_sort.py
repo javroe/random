@@ -28,15 +28,3 @@ def merge_sort(arr):
             arr[m] = right_arr[r]
             r += 1
             m += 1
-
-
-
-
-
-
-
-arr_test = [2, 3, 5, 1, 4, 9, 7, 1, 3, 4, 1, 9, 2, 3, 4, 5, 1, 2, 3, 1, 2]
-
-merge_sort(arr_test)
-
-print(arr_test)
